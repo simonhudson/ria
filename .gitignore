@@ -1,21 +1,6 @@
-.DS_Store
-
-# dependency directory
 node_modules
+.sass-cache
 bower_components
-*.node
-
-# project directory
-/build/
-
-# logs
-logs
-*.log
-npm-debug.log*
-
-*.sublime-*
-*.vscode
-
-# tests
-tests/.screenshots
-tests/output/data/**/*.json
+build
+.yo-rc.json
+tests/output/*.json
